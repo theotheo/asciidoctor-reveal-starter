@@ -14,9 +14,9 @@ plantuml.register(asciidoctor.Extensions);
 // Utility to create index file
 gulp.task('buildIndex', function () {
     var fileList = '';
-    const indexFile = '../output/index.html';
+    const indexFile = '../docs/index.html';
 
-	glob.sync('../output/*.html').forEach(function (file) {
+	glob.sync('../docs/*.html').forEach(function (file) {
         console.log(file)
             if (file !== indexFile) {
                 const basename = path.basename(file)
@@ -29,7 +29,7 @@ gulp.task('buildIndex', function () {
 
 gulp.task('copy-img', function() {
     return gulp.src('../src/images/*')
-      .pipe(gulp.dest('../output/images'));
+      .pipe(gulp.dest('../docs/images'));
   });
 
 
@@ -47,7 +47,7 @@ gulp.task('reveal', () => {
         backend: 'revealjs', 
         attributes: attributes,
         base_dir: '../src',
-        to_dir: '../output',
+        to_dir: '../docs',
         mkdirs: true,
     };
 
@@ -63,14 +63,14 @@ gulp.task('serve', ['reveal', 'buildIndex', 'copy-img'], () => {
     browserSync.init({
         port: 8000,
         server: {
-            baseDir: "../output",
+            baseDir: "../docs",
             index: "index.html"
         },
         browser: ['chrome'],
     });
 
     gulp.watch(['*.adoc', 'revealjs-plugins/*.js', '../src/**/*.adoc'], ['reveal', browserSync.reload]);
-    gulp.watch(['../output/*.html'], ['buildIndex']);
+    gulp.watch(['../docs/*.html'], ['buildIndex']);
     gulp.watch(['../src/images/*'], ['copy-img']);
 });
 
