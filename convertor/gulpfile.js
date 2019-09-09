@@ -15,9 +15,8 @@ plantuml.register(asciidoctor.Extensions);
 gulp.task('buildIndex', function () {
     var fileList = '';
     const indexFile = '../output/index.html';
-    const fileArray = glob.sync('../output/*.html');
 
-	fileArray.forEach(function (file) {
+	glob.sync('../output/*.html').forEach(function (file) {
         console.log(file)
             if (file !== indexFile) {
                 const basename = path.basename(file)
@@ -26,7 +25,6 @@ gulp.task('buildIndex', function () {
 	});
 
 	fs.writeFileSync(indexFile, '<html><head></head><body><h3>Content</h3><ul>'+ fileList +'</ul></body></html>');
-
 });
 
 gulp.task('copy-img', function() {
@@ -53,18 +51,9 @@ gulp.task('reveal', () => {
         mkdirs: true,
     };
 
-    
-
 	glob.sync('../src/*.adoc').forEach(function (file) {
         asciidoctor.convertFile(file, options);
-        // console.log(file)
-        //     if (file !== indexFile) {
-        //         const basename = path.basename(file)
-        //         fileList += '<li><a href="'+ basename +'">'+ basename +'</a></li>';
-        //     }
 	});
-
-    
 });
 
 /**
