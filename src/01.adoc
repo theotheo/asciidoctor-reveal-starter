@@ -24,9 +24,14 @@
 
 ifndef::imagesdir[:imagesdir: images]
 
-# Dialog State Tracking (DST)
+# Знакомство
 
-include::{src}/example.adoc[+1]
+include::{src}/now.adoc[+1]
+include::{src}/history.adoc[+1]
+// include::{src}/media.adoc[+1]
+
+include::{src}/work.adoc[+1]
+// include::{src}/example.adoc[+1]
 
 
 

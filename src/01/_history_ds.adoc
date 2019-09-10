@@ -1,0 +1,74 @@
+# Data Science
+
+## 1962 Tukey
+Сдвиг в области статистики
+"… as I have watched mathematical statistics evolve, I have had cause to wonder and to doubt…I have come to feel that my central interest is in data analysis…
+"
+-- Tukey
+
+## 1974 John Naur
+
+"The science of dealing with data, once they have been established, while the relation of the data to what they represent is delegated to other fields and sciences.
+"
+-- Concise Survey of Computer Methods, Peter Naur
+
+## 1977 International Association for Statistical Computing (IASC)
+"It is the mission of the IASC to link traditional statistical methodology, modern computer technology, and the knowledge of domain experts in order to convert data into information and knowledge."
+-- миссия
+
+## 1977 Exploratory Data Analysis
+Еще одна статья Tukey 
+"arguing the importance of using data in selecting “which” hypotheses to test, and that confirmatory data analysis and exploratory data analysis should work hand-in-hand."
+
+## 1989 Knowledge Discovery in Databases (KDD)
+Первый воркшоп
+
+## 1994 обложка в Business Week
+"Business Week ran the cover story, Database Marketing, revealing the ominous news companies had started gathering large amounts of personal information, with plans to start strange new marketing campaigns. The flood of data was, at best, confusing to company managers, who were trying to decide what to do with so much disconnected information."
+-- https://www.dataversity.net/brief-history-data-science/#
+
+## 2001 William S. Cleveland
+Data Science: An Action Plan for Expanding the Technical Areas of the field of Statistics.
+
+## 2002 Data Science Journal
+International Council for Science: Committee on Data for Science and Technology 
+
+## 2008 Buzzword
+" “Data Scientist” became a buzzword, and eventually a part of the language. DJ Patil and Jeff Hammerbacher, of LinkedIn and Facebook, are given credit for initiating its use as a buzzword."
+-- https://www.dataversity.net/brief-history-data-science/#
+
+## 2011
+"job listings for Data Scientists increased by 15,000%. There was also an increase in seminars and conferences devoted specifically to Data Science and Big Data. Data Science had proven itself to be a source of profits and had become a part of corporate culture."
+-- https://www.dataversity.net/brief-history-data-science/#
+
+## Sexy Job
+
+## Skill set
+
+## Возражения против 
+
+## SAS
+
+## R 
+
+## Pandas
+
+## Sklearn
+
+## Python vs R
+
+## 2015 Deep Learning
+"In 2015, Bloomberg’s Jack Clark, wrote that it had been a landmark year for Artificial Intelligence (AI). Within Google, the total of software projects using AI increased from “sporadic usage” to more than 2,700 projects over the year.
+"
+-- https://www.dataversity.net/brief-history-data-science/#
+
+## ODS
+
+image::2019-09-09-23-23-13.png[https://ods.ai]
+
+## Картиночка
+image::https://pbs.twimg.com/media/Ca4GJIUWAAAR94I?format=jpg&name=medium[]
+https://mobile.twitter.com/catapultsports/status/697501746743025664/photo/1
+
+## Источники
+https://www.dataversity.net/brief-history-data-science/#
